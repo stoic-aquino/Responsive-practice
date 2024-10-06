@@ -1,0 +1,84 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    display: block;
+  }
+.pic{
+    height: 500px;
+    margin-left: 30px;
+    width: 315px;
+    margin-top: 10px;
+}
+.Girl{
+  width: 100%; 
+  height: auto; 
+  border-radius: 50%;
+  margin-left: 70px;
+  margin-top: 30px;
+  max-width: 300px; 
+}
+.text{
+    font-weight: 300;
+    font-size: 18px;
+    color: blue;
+    width: 315px;
+    margin-left: 30px;
+}
+@media (min-width: 768px) {
+    section {
+      display: flex;
+      flex-direction: column;
+    }
+  
+   .Girl {
+    width: 75%;
+    height: auto;
+   margin-top:-400px;
+   margin-right: 50px;
+   float: right; 
+   margin-left: 10px;
+    }
+  
+    .text {
+      width: 100%;
+      clear: both;
+      padding-top: 10px;
+    }
+  }
+  @media (min-width: 1024px) {
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+      }
+    
+      .Girl {
+        width: 100%; 
+        height: auto;
+        margin-left: 200px;
+        margin-top: 40px;
+        
+      }
+    
+      .text {
+        width: 70%; 
+        clear: both; 
+        margin-top: -140px;
+        margin-left:350px;
+        font-size:23px;
+        
+      }
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
